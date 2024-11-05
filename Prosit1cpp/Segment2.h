@@ -18,5 +18,5 @@ private:
 public:
   /*A COMPLETER*/
   
-  IntersectionStatus Segment2::intersect(Segment2 r, Point2 &p);
+  IntersectionStatus intersect(Segment2 r, Point2 &p);
 };
