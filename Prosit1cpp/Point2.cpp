@@ -1,6 +1,6 @@
 #include "Point2.h"
 
-void Point2 :: Point2_init(Point2 *p) {
+/*void Point2 :: Point2_init(Point2 *p) {
     p->x = 0;
     p->y = 0;
 }
@@ -9,11 +9,15 @@ void Point2 :: Point2_init_with_xy(Point2 *p, float x, float y) {
     p->x = x;
     p->y = y;
 }
-
-float Point2 :: Point2_getX(const Point2 *p) {
-    return p->x;
+*/
+void POint2 :: Point2(int, int) {
+  oa = this->getOrigin(), ob = r.getOrigin();  
 }
 
+float Point2 :: Point2_getX(float p) {
+    return p;
+}
+/*
 float Point2 :: Point2_getY(const Point2 *p) {
     return p->y;
 }
@@ -29,6 +33,7 @@ void Point2 :: Point2_setY(Point2 *p, float y) {
 void Point2 :: Point2_print(const Point2 *p) {
     printf("{%f, %f}\n", p->x, p->y);
 }
+*/
 
 Vector2 :: Point2_sub(Point2 *r, const Point2 *p) {
     Vector2 result;
@@ -47,4 +52,3 @@ Point2 :: Point2_add(const Point2 *p, const Vector2 *r) {
     
     return result;
 }
-
