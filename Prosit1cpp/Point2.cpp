@@ -1,8 +1,8 @@
 #include "Point2.h"
 
-void Point2 :: Point2() {
-  oa = this->getOrigin();
-  ob = r.getOrigin();  
+Point2 :: Point2() {//je sais pas ce que ca fait mais ca marche
+  oa = this->x;
+  ob = r.y;  
 }
 Point2 :: Point2_add() {
     Point2 result;
@@ -12,10 +12,10 @@ Point2 :: Point2_add() {
     
     return result;
 }
-float Point2 :: Point2_getX() {
+int Point2 ::getX(int x) {
     return p->x;
 }
-float Point2 :: Point2_getY() {
+int Point2 ::getY(int y) {
     return p->y;
 }
 /*void Point2 :: Point2_init(Point2 *p) {
