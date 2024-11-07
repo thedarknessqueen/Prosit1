@@ -4,6 +4,9 @@
 #include "Vector2.h"
 #include <iostream>
 
+
+float da, db;
+
 enum IntersectionStatus {
   POINT,
   COLINEAR_INTERSECTING,
