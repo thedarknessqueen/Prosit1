@@ -13,10 +13,12 @@ void test() {
   IntersectionStatus status;
 
   status = s1.intersect(s2, o10);
-  assert((status == COLINEAR_INTERSECTING && o10.getX() == 4 && o10.getY() == 5) &&
+  int testa = o10.getX();
+  int testb = o10.getY();
+  assert((status == COLINEAR_INTERSECTING && testa == 4 && testb == 5) &&
          "s1 and s2 should be intersecting at (4, 5)");
   status = s1.intersect(s3, o10);
-  assert((status == POINT && o10.getX() == 2.5 && o10.getY() == 3) &&
+  assert((status == POINT && testa == 2.5 && testb == 3) &&
          "s1 and s3 should be intersecting at (2.5, 3)");
   status = s1.intersect(s4, o10);
   assert((status == NON_INTERSECTING) && "s1 and s4 should not be intersecting and aren't parallel, nor collinear.");
