@@ -22,4 +22,5 @@ public:
   /*A COMPLETER*/
   
   IntersectionStatus intersect(Segment2 r, Point2 &p);
+  Segment2(Point2&, Vector2&);
 };
