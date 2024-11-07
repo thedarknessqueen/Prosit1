@@ -1,6 +1,9 @@
 #include "Segment2.h"
 
-void Segment2 :: Segment2
+Segment2::Segment2(/*Point2&, Vector2&*/){
+    Point2 point = Point2(Point2&);
+    Vector2 vercteur = Vector2(Vector2&);
+}
 
 IntersectionStatus Segment2::intersect(Segment2 r, Point2 &p) {
   //Point2 oa = this->getOrigin(), ob = r.getOrigin();
