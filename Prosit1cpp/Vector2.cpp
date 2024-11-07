@@ -1,9 +1,8 @@
 #include "Vector2.h"
 
-
 void Vector2 :: Vector2(){
-    da = this->getDirection(); 
-    db = r.getDirection();
+    da = this->x; 
+    db = r.y;
     dc = ob.sub(oa);
 }
 void Vector2 :: Vector2_cross(){
