@@ -1,11 +1,12 @@
 #include "Vector2.h"
 
-void Vector2 :: Vector2(){
+
+Vector2 :: Vector2(){//je sais pas ce que ca fait mais ca marche
     da = this->x; 
     db = r.y;
     dc = ob.sub(oa);
 }
-void Vector2 :: Vector2_cross(){
+Vector2 :: Vector2_cross(){
     
 }
 /*
