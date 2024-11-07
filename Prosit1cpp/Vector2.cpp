@@ -1,5 +1,15 @@
 #include "Vector2.h"
 
+
+void Vector2 :: Vector2(){
+    da = this->getDirection(); 
+    db = r.getDirection();
+    dc = ob.sub(oa);
+}
+void Vector2 :: Vector2_cross(){
+    
+}
+/*
 void Vector2 :: Vector2_init(Vector2 *v, float x, float y) {
     v->x = x;
     v->y = y;
@@ -35,4 +45,4 @@ Vector2 :: Vector2_negate(const Vector2 *v) {
     Vector2 result;
     Vector2_init(&result, -v->x, -v->y);
     return result;
-}
+}*/
