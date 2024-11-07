@@ -1,8 +1,10 @@
 #include "Segment2.h"
 
+void Segment2 :: Segment2
+
 IntersectionStatus Segment2::intersect(Segment2 r, Point2 &p) {
-  Point2 oa = this->getOrigin(), ob = r.getOrigin();
-  Vector2 da = this->getDirection(), db = r.getDirection(), dc = ob.sub(oa);
+  //Point2 oa = this->getOrigin(), ob = r.getOrigin();
+  //Vector2 da = this->getDirection(), db = r.getDirection(), dc = ob.sub(oa);
 
   IntersectionStatus status;
   float det = da.cross(db);
