@@ -10,7 +10,7 @@ private:
   /*A COMPLETER*/
 public:
   /*A COMPLETER*/
-    Vector2(int x, int y): x(x), y(y) {}
-    void Vector2(int, int) ;
-    void Vector2_cross();
+    Vector2(int x, int y)/*: x(x), y(y) {}*/;
+    //set_Vector2(int, int) ;
+    //Vector2_cross();
 };
