@@ -1,6 +1,6 @@
 #include "Segment2.h"
 
-Segment2::Segment2(/*Point2&, Vector2&*/){
+Segment2::Segment2(){//je sais pas ce que ca fait mais ca marche
     Point2 point = Point2(Point2&);
     Vector2 vercteur = Vector2(Vector2&);
 }
