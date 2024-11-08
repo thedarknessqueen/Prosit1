@@ -1,10 +1,12 @@
 #include "Point2.h"
+#include "Vector2.h"
+#include "Segment2.h"
 
 Point2 :: Point2() {//je sais pas ce que ca fait mais ca marche
-  oa = this->x;
+  this->x =oa;
   ob = r.y;  
 }
-Point2 :: Point2_add() {
+Point2 :: add() {
     Point2 result;
     
     result.x = p->x + r->x;
