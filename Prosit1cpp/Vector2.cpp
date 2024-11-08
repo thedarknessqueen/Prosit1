@@ -1,7 +1,7 @@
 #include "Vector2.h"
 
 
-Vector2 :: Vector2(){//je sais pas ce que ca fait mais ca marche
+Vector2 :: set_Vector2(){//je sais pas ce que ca fait mais ca marche
     da = this->x; 
     db = r.y;
     dc = ob.sub(oa);
